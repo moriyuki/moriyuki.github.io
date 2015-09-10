@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>自己判定</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- <style rel="stylesheet" type="text/css"　href="cmn.css"></style> -->
+  <style type="text/css">
+    .org-menu-panel {
+      height: 220px;
+     position: relative;
+   }
+   .org-menu-btn {
+     /*position: absolute;*/
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     margin: auto;
+   }
+   .org-menu-btn:hover {
+    background-color: #529df0;
+    transition: .5s;
+    transform: scale(1.05,1.05);
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>横浜市自己判定プトロコル</h1>
+    <div align="right">
+      <p>Mmmmmmm Mmmmmmmmmmmmm</p>
+      <p>Mmmmmmm Mmmmmmmmmmmmm</p>
+      <p>Mmmmmmm Mmmmmmmmmmmmm</p>      
+    </div>
+  </header>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- 2.ヘッダ情報 -->
+      <div class="navbar-header">
+        <a class="navbar-brand">横浜市　自己判定システム</a>
+      </div>
+      <!-- 3.リストの配置 -->
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">お知らせ</a></li>
+      </ul>
+      <!-- 4.ボタン -->
+      <button type="button" class="nav navbar-right btn btn-default navbar-btn">
+        <span class="glyphicon glyphicon-cog">管理メニュー</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 org-menu-panel" style="">
+        <div class="panel panel-default org-menu-btn">
+          <a href="./protocol.ejs">
+            <div class="panel-body" align="center">
+              <h2>緊急度判定</h2>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 org-menu-panel" style="">
+        <div class="panel panel-default org-menu-btn">
+         <a href="./tracing.ejs">
+          <div class="panel-body" align="center">
+            <h2>診断結果記録</h2>
+          </div>
+        </a>
+      </div>
+
+    </div>   
+  </div>
+</div>
+
+<footer>
+  <h3>footer here</h3>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+</html>
